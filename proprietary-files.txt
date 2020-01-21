@@ -394,20 +394,6 @@ vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 vendor/lib/hw/vulkan.sdm660.so|7f677363774e3c12613f004922cb7aba9aa3bf7b
 vendor/lib64/hw/vulkan.sdm660.so|7f37b59e75cb1739b74ff9646dc958591cd7fa23
 
-# IOP - from LA.UM.8.2.r1-06500-sdm660.0
-vendor/lib/vendor.qti.hardware.iop@1.0.so|983cd9950076bf4e9c2b814dfde6add0826d468d
-vendor/lib/vendor.qti.hardware.iop@2.0.so|d0789f2247f38d1f7f87a48c7926703b1e44c054
-vendor/lib64/vendor.qti.hardware.iop@1.0.so|a87a7a3e5091e3d4fa7019454335f4345c46e612
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|bed4a8487d9aea6090bae5b87ce3235343713e0a
-vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|cd34c88527022cc0533f099d16d2beceea515620
-vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|3028eb81937a1748b686191a5bc599cc201645ad
-vendor/lib/libqti-iopd-client.so|4d7207d3e6a3fbe9acaff75a18ef659d0ab6dd91
-vendor/lib/libqti-iopd.so|71560b0c697931e56173efaa006e0e1319dc6e59
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|34fed4ccdde47d65bdd335845690c09f2c8e356e
-vendor/lib64/libqti-iopd-client.so|123189bec7bec4746e9a5f2b173549d13f41f37d
-vendor/lib64/libqti-iopd.so|672bb37dcf7b1fc790e2ae08e55ccb9dd9e3ab99
-
 # Listen - from LA.UM.8.2.r1-06500-sdm660.0
 vendor/lib/hw/sound_trigger.primary.sdm660.so|f24897519d353d5536ca97b0ea899882b170696d
 vendor/lib/libadpcmdec.so|8c72aa1812bfa749f266020366894c8a3873d99c
@@ -464,27 +450,15 @@ vendor/lib64/libmlipay@1.1.so|4dfa016779bcba8da2ff293e5112c678044c6474
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so|d0bb854210433066945f9d6e7943d08a8435e746
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|785984e3c3b30671b78624484899dd418979cb56
 
-# Perf - from LA.UM.8.2.r1-06500-sdm660.0
+# Perf - from Taimen QP1A.190711.020
+vendor/lib/libqti-perfd-client.so|16816cfdc873a2fdc9467db52bd5f2aaa33d2b50
+vendor/lib64/libqti-perfd-client.so|93c3f90f1b72a21ca325cbb375923b1deba80467
+
+# Additional Perf - from LA.UM.8.2.r1-06500-sdm660.0
 vendor/bin/energy-awareness|d30082c491a02582ee281fe7fe9e71eba9708858
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|c6cd54bf6032e6a32ea27ebd821cf49c56d2c2a6
 vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
-vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
-vendor/etc/perf/commonresourceconfigs.xml|89d443b2b67d58fff1ef34c33e3f1c393164cf5d
-vendor/etc/perf/perfboostsconfig.xml|9398d1e9b389d436950d9586ef38f4f88dfed7fc
-vendor/etc/perf/targetconfig.xml|376ae331df9d6c30b6208f25d04ae4ea11c0e2ea
-vendor/etc/perf/targetresourceconfigs.xml|24847e0237d2813639d1b2acfc4926ca8ce9060c
-vendor/lib/libperfconfig.so|3fabe6d587329cbb619514cc36896cd97c94a113
 vendor/lib/libperfgluelayer.so|c08b9acba7d712f3559e9ba76b15333d17493fe7
-vendor/lib/libqti-perfd-client.so|fa095b220fed5c4c8dfab099425516d92c194ad0
-vendor/lib/libqti-perfd.so|48809a47a710f510ab484001bb44cd6cbae932c4
-vendor/lib/libqti-util.so|b9610a3448b53d007965e1572a0d6c65414052ff
-vendor/lib/vendor.qti.hardware.perf@2.0.so|9b4983ba1941496f4ba06b646a0397d635ca8f32
-vendor/lib64/libperfconfig.so|391033893fe1889a608b4351f58e0c4b09c3a14b
 vendor/lib64/libperfgluelayer.so|14e4de9e4464ff36921a6124c1663864cfb400b9
-vendor/lib64/libqti-perfd-client.so|dccd1af573c7fc1d7497ce9bd851eee8dfba0316
-vendor/lib64/libqti-perfd.so|cd906582067b67977f332299cfcbc5f95d0957e6
-vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
-vendor/lib64/vendor.qti.hardware.perf@2.0.so|b05e762bf5c7e86b0d6c1be4c8ae91e3f706dca7
 
 # Peripheral manager - from LA.UM.8.2.r1-06600-sdm660.0
 vendor/bin/pm-proxy|3182c937d93cc02c6721c053f57fc6794ad7edb3
