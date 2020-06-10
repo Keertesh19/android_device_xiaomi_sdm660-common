@@ -89,3 +89,6 @@
 
 # Debugfs
 /sys/kernel/debug/system_stats                                                          u:object_r:debugfs:s0
+
+# Shell Script
+/vendor/bin/sh                                                                          u:object_r:vendor_shell_exec:s0
